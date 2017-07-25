@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Airbus]">
+  <parameter name="propertyFile" value="Environment.properties"/>
+  <test name="functionalTesting(failed)" preserve-order="true">
+    <parameter name="propertyFile" value="Environment.properties"/>
+    <classes>
+      <class name="com.cashkaro.Registration">
+        <methods>
+          <include name="logAfterSuite"/>
+          <include name="register"/>
+          <include name="AfterSuite"/>
+          <include name="testFolderCleanup"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

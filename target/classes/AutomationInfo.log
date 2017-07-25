@@ -1,0 +1,7 @@
+12:22:09) [main] INFO  com.cashkaro.base.FPXBaseTestSuite - Current Working Directory:   /home/rajagopal/Documents/selenium/Cashkaro/target/classes
+12:22:34) [main] INFO  com.cashkaro.base.FPXBaseTestSuite - Started running suite :  Registration
+12:22:34) [main] INFO  com.cashkaro.base.FPXBaseTestSuite - Started Running Methodregister
+12:22:35) [main] INFO  com.cashkaro.Registration - Account creation in  CashKaro.com
+12:23:00) [main] INFO  com.cashkaro.base.FPXBaseTestSuite - Finished Running Test: register
+12:23:00) [main] INFO  com.cashkaro.base.FPXBaseTestSuite - Status : Pass
+12:23:00) [main] INFO  com.cashkaro.base.FPXBaseTestSuite - Finished running suite : Registration

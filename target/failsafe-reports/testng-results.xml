@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Airbus" duration-ms="26231" started-at="2016-05-05T12:22:34Z" finished-at="2016-05-05T12:23:00Z">
+    <groups>
+    </groups>
+    <test name="functionalTesting" duration-ms="26231" started-at="2016-05-05T12:22:34Z" finished-at="2016-05-05T12:23:00Z">
+      <class name="com.cashkaro.Registration">
+        <test-method status="PASS" signature="testFolderCleanup(java.lang.String)[pri:0, instance:com.cashkaro.Registration@352d48a3]" name="testFolderCleanup" is-config="true" duration-ms="25313" started-at="2016-05-05T12:22:09Z" finished-at="2016-05-05T12:22:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Environment.properties]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="logBeforeSuite()[pri:0, instance:com.cashkaro.Registration@352d48a3]" name="logBeforeSuite" is-config="true" duration-ms="1" started-at="2016-05-05T12:22:34Z" finished-at="2016-05-05T12:22:34Z">
+        </test-method>
+        <test-method status="PASS" signature="createInstance()[pri:0, instance:com.cashkaro.Registration@352d48a3]" name="createInstance" is-config="true" duration-ms="385" started-at="2016-05-05T12:22:34Z" finished-at="2016-05-05T12:22:34Z">
+        </test-method>
+        <test-method status="PASS" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:com.cashkaro.Registration@352d48a3]" name="logBeforeMethod" is-config="true" duration-ms="1" started-at="2016-05-05T12:22:34Z" finished-at="2016-05-05T12:22:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.cashkaro.Registration.register() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="register()[pri:0, instance:com.cashkaro.Registration@352d48a3]" name="register" duration-ms="25830" started-at="2016-05-05T12:22:34Z" finished-at="2016-05-05T12:23:00Z">
+        </test-method>
+        <test-method status="PASS" signature="logAfterMethod(org.testng.ITestResult)[pri:0, instance:com.cashkaro.Registration@352d48a3]" name="logAfterMethod" is-config="true" duration-ms="2" started-at="2016-05-05T12:23:00Z" finished-at="2016-05-05T12:23:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: register STATUS:SUCCESS METHOD:Registration.register()[pri:0, instance:com.cashkaro.Registration@352d48a3]]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="logAfterSuite()[pri:0, instance:com.cashkaro.Registration@352d48a3]" name="logAfterSuite" is-config="true" duration-ms="1" started-at="2016-05-05T12:23:00Z" finished-at="2016-05-05T12:23:00Z">
+        </test-method>
+        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:com.cashkaro.Registration@352d48a3]" name="AfterSuite" is-config="true" duration-ms="134" started-at="2016-05-05T12:23:00Z" finished-at="2016-05-05T12:23:00Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

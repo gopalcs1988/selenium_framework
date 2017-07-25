@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Airbus">
+    <parameter name="propertyFile" value="Environment.properties"/>
+    <test name="functionalTesting" preserve-order="true">
+        <classes>
+              <class name="com.cashkaro.Registration" />
+        </classes>
+    </test>
+</suite>
